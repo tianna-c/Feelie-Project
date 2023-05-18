@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddMoodActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/how_are_you_doing"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_gravity="center"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ic_sad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/sad"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/sad"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/ic_neutral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/neutral"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/neutral"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/ic_nervous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/nervous"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/nervous"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ic_shock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/shock"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/shock"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/ic_happy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/happy"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/happy"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/ic_mad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:contentDescription="@string/mad"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/mad"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ic_excited"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/excited"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/excited"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/ic_confused"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contentDescription="@string/confused"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/confused"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/ic_calm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:contentDescription="@string/calm"
+                android:padding="5dp"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/calm"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="@string/would_you_like_to_say_more"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/mood_notes"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_rounded_box"
+            android:backgroundTint="@color/blue_200"
+            android:hint="@string/today_i_noticed_that"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColorHint="#1A237E"
+            android:textSize="18sp"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/log_mood_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/record_my_mood"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

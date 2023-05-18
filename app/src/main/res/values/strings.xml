@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Feelie</string>
+    <string name="title_home">Home</string>
+    <string name="full_name">full name</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in</string>
+    <string name="how_are_you_doing">How are you doing?</string>
+    <string name="sad">Sad</string>
+    <string name="neutral">Neutral</string>
+    <string name="nervous">Nervous</string>
+    <string name="shock">Shock</string>
+    <string name="happy">Happy</string>
+    <string name="mad">Mad</string>
+    <string name="excited">Excited</string>
+    <string name="confused">Confused</string>
+    <string name="calm">Calm</string>
+    <string name="would_you_like_to_say_more">Would you like to say more:</string>
+    <string name="today_i_noticed_that">Today, I noticed that...</string>
+    <string name="record_my_mood">Record my mood</string>
+    <string name="login">login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up!</string>
+    <string name="title_search">Search</string>
+    <string name="mood_entry">Mood Entry</string>
+    <string name="emotion">Emotion</string>
+    <string name="datetime">Datetime</string>
+    <string name="note">Note</string>
+    <string name="follow">Follow</string>
+    <string name="title_log_mood">Log Mood</string>
+    <string name="title_view_moods">View Moods</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_logout">Logout</string>
+</resources>

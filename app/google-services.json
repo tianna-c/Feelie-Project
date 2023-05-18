@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835246941031",
+    "project_id": "feelie-9dd3c",
+    "storage_bucket": "feelie-9dd3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835246941031:android:8bb724d45b5bb22d9f85c2",
+        "android_client_info": {
+          "package_name": "com.example.feelie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835246941031-5v0s1s3mlnkep2pufa84nqm5slhkivgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf3gRN07rAVTQeCoJN0GsW_ESw93fslcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835246941031-5v0s1s3mlnkep2pufa84nqm5slhkivgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

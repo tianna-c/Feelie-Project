@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="center"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/app_name" />
+
+    <EditText
+        android:id="@+id/signup_fullname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/signup_username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="username"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="emailAddress"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+
+        android:layout_gravity="center"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/signup_confirm_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:autofillHints="password"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_rounded_box"
+        android:text="@string/sign_up" />
+
+    <TextView
+        android:id="@+id/redirect_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:text="@string/already_have_an_account_log_in"
+        android:textColor="#18206F"
+        android:textSize="16sp" />
+
+</LinearLayout>
